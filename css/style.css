@@ -757,7 +757,7 @@ div.no-padding-block { padding-bottom: 0px; }
 .logo-mobile, .open-menu { display: none; }
 
 .header-wrap { position: relative; margin: 0px 90px; height: 100%; }
-
+.header-wrap img { width:100% }
 .style-fullpage.header { background: none; }
 .style-fullpage.header .nav-menu > ul > li > a, .style-fullpage.header .header-icon a i { color: #fff; }
 .style-fullpage.header .logo { left: 15px; }
@@ -1842,7 +1842,13 @@ nav li { position: relative; }
 .project-item { position: relative; width: 100%; height: 100%; -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -ms-transition: all 0.25s ease-out; transition: all 0.25s ease-out; }
 .project-item .layer-bg-3 { opacity: 0; }
 
-.project-title { position: absolute; left: 60px; top: 60px; max-width: 660px; }
+.project-title {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    max-width: 100%;
+    color: #7293a5;
+}
 .project-title .sub-title { color: #fff; margin-bottom: 20px; font-size: 14px; }
 .project-title .title a { color: #fff; }
 .project-title .title a:hover { color: #75acff; }
